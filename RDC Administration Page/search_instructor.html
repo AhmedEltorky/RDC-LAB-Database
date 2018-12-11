@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="CSS_File/database.css">
+	<title>SEARCH INSTRUCTOR</title>
+</head>
+<body>
+	
+	<div id="header">
+<img src="photos/1.jpg">
+	<h3>RDC LAB </h3>
+</div>
+<h1>Search Instructor</h1>
+	<form class="table" action="search_instructor.php" method="POST">
+	    <div class="row">
+		<label for="instructor_id">Search by ID : </label>
+		<input id="instructor_id" type="text" name="instructor_id" placeholder="instructor id"><br>
+		</div>
+		<div class="row">
+		<label for="instructor_name">Search by Name : </label>
+		<input id="instructor_name" type="text" name="instructor_name" placeholder="instructor name"><br>
+		</div>
+		<div class="row">
+		<label for="instructor_phone">Search by phone NO. : </label>
+		<input id="instructor_phone" type="text" name="instructor_phone" placeholder="instructor phone"><br>
+		</div>
+		<div class="row">
+		<label for="instructor_e_mail">Search by e-mail : </label>
+		<input id="instructor_e_mail" type="text" name="instructor_mail" placeholder="instructor mail"><br><br>
+		</div>
+		<div class="row">
+		<button type="submit">Search</button>
+		</div>
+	</form>
+
+	<br><br>
+
+	<form action="home.html">
+		<button type="submit" class="home">Home</button>
+	</form>
+</body>
+</html>

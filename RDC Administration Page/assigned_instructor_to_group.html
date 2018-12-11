@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="CSS_File/database.css">
+	<title>ADD INSTRUCTOR TO GROUP</title>
+</head>
+<body>
+<div id="header">
+<img src="photos/1.jpg">
+	<h3>RDC LAB </h3>
+</div>
+	<h1>Assigned Instructor To Course Group</h1>
+	
+	<form class="table" action="assigned_instructor_to_group.php" method="POST">
+	<p>
+	<div class="row">
+		<label for="id">Enter Instructor ID : </label>
+		<input id="id" type="text" name="instructor_id" placeholder="instructor id"><br>
+		</div>
+
+		<div class="row">
+		<label for="group_number">Enter Group Number :  </label>
+		<input id="group_number" type="text" name="group_no" placeholder="group number"><br>
+		</div>
+
+		</p>
+		<button type="submit">ADD</button>
+	</form>
+	
+	<br><br>
+	<form action="home.html" >
+		<button class="home" type="submit">Home</button>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="CSS_File/database.css">
+	<title>ADD INTERN TO GROUP</title>
+</head>
+<body>
+<div id="header">
+<img src="photos/1.jpg">
+	<h3>RDC LAB </h3>
+</div>
+	<h1>Add Intern To Course Group</h1>
+	
+	<form class="table" action="add_intern_to_group.php" method="POST">
+	<p>
+	<div class="row">
+		<label for="id">Enter Intern ID : </label>
+		<input id="id" type="text" name="intern_id" placeholder="intern id"><br>
+		</div>
+
+		<div class="row">
+		<label for="course_name">Enter Course Name : </label>
+		<input id="course_name" type="text" name="course_name" placeholder="course name"><br>
+		</div>
+
+		<div class="row">
+		<label for="group_number">Enter Group Number :  </label>
+		<input id="group_number" type="text" name="group_no" placeholder="group number"><br>
+		</div>
+
+		<div class="row">
+		<label for="payment">Enter Payment : </label>
+		<input id="payment" type="text" name="payment" placeholder="payment"><br><br>
+		</div>
+
+		</p>
+		<button type="submit">ADD</button>
+	</form>
+	
+	<br><br>
+	<form action="home.html" >
+		<button class="home" type="submit">Home</button>
+	</form>
+
+</body>
+</html>

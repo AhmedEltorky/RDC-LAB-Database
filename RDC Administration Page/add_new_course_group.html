@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ADD NEW COURSE GROUP</title>
+	<link rel="stylesheet" type="text/css" href="CSS_File/database.css">
+</head>
+<body>
+<div id="header">
+<img src="photos/1.jpg">
+	<h3>RDC LAB </h3>
+</div>
+<h1>Add New Course Group</h1>
+
+	<form class="table" action="add_new_course_group.php" method="POST">
+	<p>
+	    <div class="row">
+		<label for="group_number">Enter Group Number : </label>
+		<input id="group_number" type="text" name="group_no" placeholder="group number" required><br>
+		</div>
+		<div class="row">
+		<label for="course_name">Enter Course Name : </label>
+		<input id="course_name" type="text" name="course_name" placeholder="course name" required><br>
+		</div>
+		<div class="row">
+		<label for="start_date">Enter Start Date : </label>
+		<input id="start_date" type="text" name="start_date" placeholder="0000-00-00" required><br>
+		</div>
+		<div class="row">
+		<label for="end_date">Enter End Date : </label>
+		<input id="end_date" type="text" name="end_date" placeholder="0000-00-00" required><br>
+		</div>
+		<div class="row">
+		<button type="submit">ADD</button>	
+		</div>
+    </p>  
+	</form>
+
+	<br><br>
+	<form action="home.html">
+		<button type="submit" class="home">Home</button>
+	</form>
+</body>
+</html>

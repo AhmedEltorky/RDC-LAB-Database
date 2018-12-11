@@ -1,0 +1,132 @@
+body {
+	
+	background: linear-gradient(to bottom left ,black 15%,white 60%,black);
+	font-family: verdana;
+	margin:0px; 
+
+}
+#header{
+	position: static;
+	background-color: black;
+	margin: 10px;
+	height: 100px;
+	border-radius: 5px;
+
+}
+
+h3{
+	cursor: text;
+	margin-bottom: auto;
+	margin-top: auto;
+	display: inline;
+	font-size: 5em;
+	text-align: center;
+	color: darkgray;
+	font-family: serif;
+	padding-bottom: 20px;	
+	margin-left: 350px;
+	position:relative;/*from this line to center the header in the vertical direction*/ 
+	bottom: 25%;
+	
+
+}
+img{
+	clear: right;
+	max-height: 100%;
+	max-width: 100%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+h1{
+	cursor: text;
+	font-family:georgia ;
+	font-style: italic;
+	text-decoration: underline;
+	font-weight:bolder;
+	font-size: 45px;
+	color: rgb(60,30,30);
+	text-align: center;
+	margin-bottom: 50px;
+
+
+}
+
+form{
+	
+	display: block;
+	padding: 5px;
+
+}
+/*...........................HomePage.........................*/
+input.button{
+	background-color: black;
+    font-size:30px; 
+    width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	box-sizing: border-box;
+	color: white;
+	text-align: none;
+	display: block;
+	padding: 5PX;
+}
+.button:hover{
+	background-color: white;
+	color: black;
+}
+/*...........................................................*/
+
+.table {
+	text-align: center;
+	display: table;
+	
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+.row{
+	display: table-row;
+
+
+}
+.row label{
+	cursor: pointer;
+	display: table-cell;
+	text-align: right;
+	padding: 2px;
+	font-size: 25px;
+	float: left;
+	font-weight: bold;
+
+}
+.row input{
+	float: right;
+	display: table-cell;
+	padding: 2px;
+	width: 200px;
+	height: 25px;
+}
+
+button {
+	cursor: pointer;
+	padding: 10px 50px;
+	width: auto;
+	height: auto;
+	background-color: black;
+	color: white;
+	font-size: 35px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+button:hover {
+	color: black;
+	background-color: white;
+	cursor: hand;
+}
+.home{
+width: 100%;
+margin-bottom: 0;
+}
